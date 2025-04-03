@@ -147,7 +147,7 @@ if __name__ == "__main__":
             label = f"{mac} ({name})" if name else mac
             print(f"[{idx}] {label}")
 
-        choice = input("Enter device number (e.g. 0): ").strip()
+        choice = input("Enter device number to decode(e.g. 0): ").strip()
 
         try:
             selected_mac = devices[int(choice)][0]
